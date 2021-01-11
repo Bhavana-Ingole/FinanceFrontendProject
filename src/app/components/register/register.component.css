@@ -7,6 +7,7 @@
     text-align: center;
     color: #fff;
     margin-top: 4%;
+   
 }
 .register-left input{
     border: none;
@@ -22,8 +23,9 @@
 }
 .register-right{
     background: #f8f9fa;
-    border-top-left-radius: 10% 50%;
-    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 90%;
+    border-bottom-left-radius: 10% 90%;
+    
 }
 .register-left img{
     margin-top: 15%;
