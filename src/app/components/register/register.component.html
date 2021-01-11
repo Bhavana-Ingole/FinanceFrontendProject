@@ -19,10 +19,10 @@
                     <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
                     <h3>Welcome !</h3>
 
-                    <input type="submit" name="" value="Login" /><br />
+                    <input type="submit" name="" value="Login" />
+                    <br />
+
                 </div>
-
-
                 <div class="col-md-9 register-right">
 
                     <div class="tab-content" id="myTabContent">
@@ -31,58 +31,70 @@
                             <div class="row register-form">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="User Id " name="userId" [(ngModel)]="user.userId"/>
+                                        <input type="text" class="form-control" placeholder="User Id " name="userId"
+                                            [(ngModel)]="user.userId" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="First Name *" name="firstName" [(ngModel)]="user.firstName"/>
+                                        <input type="text" class="form-control" placeholder="First Name *"
+                                            name="firstName" [(ngModel)]="user.firstName" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Last Name *" name="lastName" [(ngModel)]="user.lastName"/>
+                                        <input type="text" class="form-control" placeholder="Last Name *"
+                                            name="lastName" [(ngModel)]="user.lastName" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="date" class="form-control" placeholder="Date of Birth" name="dateOfBirth" [(ngModel)]="user.dateOfBirth"/>
+                                        <input type="date" class="form-control" placeholder="Date of Birth"
+                                            name="dateOfBirth" [(ngModel)]="user.dateOfBirth" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Address *" name="address" [(ngModel)]="user.address" />
+                                        <input type="text" class="form-control" placeholder="Address *" name="address"
+                                            [(ngModel)]="user.address" />
                                     </div>
                                     <div class="form-group">
                                         <input type="text" minlength="10" maxlength="10" name="txtEmpPhone"
-                                            class="form-control" placeholder="Your Phone *"  name="mobileNo" [(ngModel)]="user.mobileNo" />
+                                            class="form-control" placeholder="Your Phone *" name="mobileNo"
+                                            [(ngModel)]="user.mobileNo" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email Address *" name="emailId" [(ngModel)]="user.emailId"/>
+                                        <input type="email" class="form-control" placeholder="Email Address *"
+                                            name="emailId" [(ngModel)]="user.emailId" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="number" class="form-control" placeholder="Account No *" name="accountNo" [(ngModel)]="user.accountNo" />
+                                        <input type="number" class="form-control" placeholder="Account No *"
+                                            name="accountNo" [(ngModel)]="user.accountNo" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="number" class="form-control" placeholder="IFSC Code *" name="ifscCode" [(ngModel)]="user.ifscCode"/>
+                                        <input type="number" class="form-control" placeholder="IFSC Code *"
+                                            name="ifscCode" [(ngModel)]="user.ifscCode" />
                                     </div>
                                     <div class="form-group">
                                         <input type="number" class="form-control" placeholder="PAN card No *"
-                                           name="pancardNumber" [(ngModel)]="user.pancardNumber"/>
+                                            name="pancardNumber" [(ngModel)]="user.pancardNumber" />
                                     </div>
                                     <div class="form-group">
                                         <input type="number" class="form-control" placeholder="Aadhar Card No *"
-                                            name="aadharNumber"  [(ngModel)]="user.aadharNumber"/>
+                                            name="aadharNumber" [(ngModel)]="user.aadharNumber" />
                                     </div>
                                     <div class="form-group">
                                         <div class="maxl">
                                             <label class="radio inline">
-                                                <input type="radio" name="cardType" value="gold" [(ngModel)]="user.cardType" checked>
+                                                <input type="radio" name="cardType" value="gold"
+                                                    [(ngModel)]="user.cardType" checked>
                                                 <span> Gold </span>
                                             </label>
                                             <label class="radio inline">
-                                                <input type="radio" name="cardType" [(ngModel)]="user.cardType" value="platinum">
+                                                <input type="radio" name="cardType" [(ngModel)]="user.cardType"
+                                                    value="platinum">
                                                 <span>Platinum </span>
                                             </label>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Password *" name="password"  [(ngModel)]="user.password"/>
+                                        <input type="password" class="form-control" placeholder="Password *"
+                                            name="password" [(ngModel)]="user.password" />
                                     </div>
                                     <input type="submit" class="btnRegister" value="Register" />
                                 </div>
