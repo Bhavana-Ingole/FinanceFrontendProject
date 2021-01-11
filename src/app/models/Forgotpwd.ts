@@ -1,4 +1,4 @@
-export class ForgotPwd{
-    userEmail:String;
-    userId:String;
+export class ForgotPwd {
+  emailId: String;
+  userId: number;
 }
